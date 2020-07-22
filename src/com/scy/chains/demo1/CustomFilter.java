@@ -1,8 +1,12 @@
-package com.scy;
+package com.scy.chains.demo1;
 
 
 //import javax.servlet.*;
 //import java.io.IOException;
+
+import com.sun.net.httpserver.Filter;
+
+import java.io.IOException;
 
 /**
  * 类名： CustomFilter <br>

@@ -1,4 +1,4 @@
-package com.scy;
+package com.scy.chains.demo1;
 
 import java.util.Arrays;
 import java.util.EnumSet;

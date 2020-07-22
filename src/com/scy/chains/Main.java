@@ -1,5 +1,4 @@
-package com.scy;
-
+package com.scy.chains;
 
 /**
  * 责任链模式（Chain of Responsibility Pattern）为请求创建了一个接收者对象的链。
@@ -11,5 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+
+    // SpringMVC-HandlerExecutionChain 类就使用到职责链模式
     }
 }
