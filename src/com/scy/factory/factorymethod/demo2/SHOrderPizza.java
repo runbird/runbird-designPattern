@@ -1,21 +1,19 @@
-package com.scy.factory.abstractFactory;
+package com.scy.factory.factorymethod.demo2;
 
 import com.scy.factory.Pizza;
-import com.scy.factory.factorymethod.SHCheesePizza;
-import com.scy.factory.factorymethod.SHPepperPizza;
 
 /**
- * 类名： SHFactory <br>
- * 描述：TODO <br>
+ * 类名： SHOrderPizza <br>
+ * 描述：披萨订购点 <br>
  * 创建日期： 2020/7/22 <br>
  *
  * @author suocaiyuan
  * @version V1.0
  */
-public class SHFactory implements Factory {
+public class SHOrderPizza extends AbstractOrderPizza{
+
     @Override
-    public Pizza createPizza(String orderType) {
-        System.out.println("~使用的是抽象工厂模式~");
+    Pizza createPizza(String orderType) {
         Pizza pizza = null;
         if ("cheese".equals(orderType)) {
             pizza = new SHCheesePizza();

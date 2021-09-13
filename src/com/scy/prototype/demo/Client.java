@@ -22,9 +22,9 @@ public class Client {
         Sheep clone5 = (Sheep) sheep.clone();
 
         System.out.println("clone1=" + clone1 + "clone1.friend=" + clone1.friend.hashCode());
-        System.out.println("clone2=" + clone1 + "clone2.friend=" + clone2.friend.hashCode());
-        System.out.println("clone3=" + clone1 + "clone3.friend=" + clone3.friend.hashCode());
-        System.out.println("clone4=" + clone1 + "clone4.friend=" + clone4.friend.hashCode());
-        System.out.println("clone5=" + clone1 + "clone5.friend=" + clone5.friend.hashCode());
+        System.out.println("clone2=" + clone2 + "clone2.friend=" + clone2.friend.hashCode());
+        System.out.println("clone3=" + clone3 + "clone3.friend=" + clone3.friend.hashCode());
+        System.out.println("clone4=" + clone4 + "clone4.friend=" + clone4.friend.hashCode());
+        System.out.println("clone5=" + clone5 + "clone5.friend=" + clone5.friend.hashCode());
     }
 }

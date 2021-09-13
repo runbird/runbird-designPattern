@@ -1,4 +1,4 @@
-package com.scy.factory.factorymethod;
+package com.scy.factory.factorymethod.demo2;
 
 import com.scy.factory.Pizza;
 

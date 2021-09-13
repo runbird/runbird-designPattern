@@ -1,21 +1,20 @@
-package com.scy.factory.abstractFactory;
+package com.scy.factory.factorymethod.demo2;
 
 import com.scy.factory.Pizza;
-import com.scy.factory.factorymethod.BJCheesePizza;
-import com.scy.factory.factorymethod.BJPepperPizza;
 
 /**
- * 类名： BJFactory <br>
+ * 类名： BJOrderPizza <br>
  * 描述：TODO <br>
  * 创建日期： 2020/7/22 <br>
  *
  * @author suocaiyuan
  * @version V1.0
  */
-public class BJFactory implements Factory {
+public class BJOrderPizza extends AbstractOrderPizza {
+
+
     @Override
-    public Pizza createPizza(String orderType) {
-        System.out.println("~使用的是抽象工厂模式~");
+    Pizza createPizza(String orderType) {
         Pizza pizza = null;
         if ("cheese".equals(orderType)) {
             pizza = new BJCheesePizza();
@@ -25,4 +24,3 @@ public class BJFactory implements Factory {
         return pizza;
     }
 }
-
