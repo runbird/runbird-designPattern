@@ -17,7 +17,6 @@ public class Test {
         GiftExchangeService giftExchangeService = new GiftExchangeService(qualifyService, pointsPaymentService, shippingService);
         giftExchangeService.giftExchange(pointGift);
 
-
         System.out.println("======使用门面模式-外观模式======");
 
         PointGift gift = new PointGift("MacPro");
