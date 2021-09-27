@@ -39,7 +39,7 @@ public class OrderServiceDynamicProxy implements InvocationHandler {
     }
 
     private void beforeMethod(Object obj) {
-        int userId = 0;
+        int userId;
         System.out.println("动态代理 before code");
         if (obj instanceof Order) {
             Order order = (Order) obj;
