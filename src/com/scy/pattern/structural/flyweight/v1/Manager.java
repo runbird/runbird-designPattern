@@ -1,4 +1,4 @@
-package com.scy.pattern.structural.flyweight;
+package com.scy.pattern.structural.flyweight.v1;
 
 /**
  * 类名： Manager <br>
