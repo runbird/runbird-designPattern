@@ -52,6 +52,5 @@ public class OrderServiceDynamicProxy implements InvocationHandler {
 
     private void afterMethod() {
         System.out.println("动态代理 after code");
-
     }
 }

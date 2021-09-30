@@ -1,4 +1,4 @@
-package com.scy.pattern.creational.builder;
+package com.scy.pattern.creational.builder.v2;
 
 /**
  * 类名： Course2 <br>

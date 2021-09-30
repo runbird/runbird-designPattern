@@ -1,5 +1,7 @@
 package com.scy.pattern.creational.builder;
 
+import com.scy.pattern.creational.builder.v1.Course;
+
 /**
  * 类名： CourseBuilder <br>
  * 描述：TODO <br>

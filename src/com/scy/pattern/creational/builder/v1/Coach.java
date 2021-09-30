@@ -1,4 +1,6 @@
-package com.scy.pattern.creational.builder;
+package com.scy.pattern.creational.builder.v1;
+
+import com.scy.pattern.creational.builder.CourseBuilder;
 
 /**
  * 类名： Coach <br>
